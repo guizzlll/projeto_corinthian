@@ -1,0 +1,106 @@
+
+.navbar h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.navbar{
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: black;
+}
+
+#titulos h2{
+    color: black;
+}
+
+#titulos img{
+    height: 250px;
+}
+
+#elenco img{
+    justify-content: space-around;
+}
+
+#elenco h5
+    {
+    color: #fff;
+    padding-top: 10px;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+    border: none;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+.carousel-item img {
+    height: 800px;
+    width: 100%;
+}
+
+#sobre-o-corinthians, #elenco{
+    background-color: rgb(73, 73, 73);
+}
+
+#sobre-o-corinthians p, h2, h3{
+    color: #fff;
+}
+
+.text-colored{
+    color: black;
+}
+
+#fale-conosco h2{
+    color: black;
+}
+
+.nav-elenco .nav-link.active,
+#fale-conosco button{
+    background-color: black;
+    color: #fff;
+}
+
+
+
+.nav-elenco button{
+    color: #fff;
+}
+
+.nav-elenco button:hover{
+    color: #fff;
+    zoom: 1.03;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover
+    {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    
+    .carousel-item img{
+        height: 280px;
+    }
+
+}
